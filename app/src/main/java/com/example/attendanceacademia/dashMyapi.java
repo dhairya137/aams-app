@@ -18,9 +18,10 @@ public interface dashMyapi {
 
   // final static String BASE_URL = "http://10.0.2.2/AAMS/public/practice/";
     //final static String BASE_URL = "http://192.168.0.106/AAMS/public/practice/";//Ankit
-      final static String BASE_URL = "http://192.168.0.105/AAMS/public/practice/";//Alok
+//      final static String BASE_URL = "http://192.168.0.105/AAMS/public/practice/";//Alok
     //final static String BASE_URL = "http://192.168.43.57/AAMS/public/practice/";//Sahil
 
+  final static String BASE_URL = "http://192.168.1.16/practice/"; //Dhairya
     @GET("leaveDash.php")
     Call<List<leaveModel>> leaveModel();
 
